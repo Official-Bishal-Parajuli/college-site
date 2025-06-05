@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* College Info */}
         <div>
-          <h2 className="text-xl font-bold text-white">Greenfield College</h2>
+          <h2 className="text-xl font-bold text-white"> Crimsion College Of Technology</h2>
           <p className="mt-2 text-sm">
             A premier institution offering quality education and fostering holistic development since 1985.
           </p>
@@ -24,18 +24,18 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
+      
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Contact</h3>
           <p className="text-sm">
-            123 College Lane<br />
-            University City, ST 45678<br />
+           Butwal Devinagar<br />
+            Butwal-04,Devinagar<br />
             Email: info@greenfield.edu<br />
-            Phone: (123) 456-7890
+            Phone: (071) 456-7890
           </p>
         </div>
 
-        {/* Social Links */}
+      
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Follow Us</h3>
           <div className="flex space-x-4">
@@ -47,9 +47,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom */}
+     
       <div className="mt-10 border-t border-gray-600 pt-4 text-center text-sm">
-        © {new Date().getFullYear()} Greenfield College. All rights reserved.
+        © {new Date().getFullYear()} Crimsion College Of Technology. All rights reserved.
       </div>
     </footer>
   );
